@@ -1,4 +1,4 @@
-solo = input("Выберите символ (+,-,*,/): ")
+solo = input("Выберите символ (+,-,*,/,**): ")
 
 a = float(input("Введите первый символ: "))
 b = float(input("Введите второй символ: "))
@@ -14,6 +14,9 @@ elif solo =="*":
     print("Результат: " + str(c))
 elif solo =="/":
     c = a/b
+    print("Результат: " + str(c))
+elif solo =="**":
+    c = a**b
     print("Результат: " + str(c))
 else:
     print("Неправильный выбор!")
